@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Scrambling App</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="javascript" href="index.js">
   </head>
   <body>
     <div class="container-div">
@@ -13,35 +12,15 @@
         <h1>Redactr App</h1>
         <textarea
           id="originalText"
-          rows="10"
+          rows="7"
           cols="50"
           placeholder="Enter your text"
         ></textarea>
-        <input type="text" id="wordToScramble" placeholder="Word to scramble" />
+        <input type="text" id="wordToScramble" placeholder="Word(s) to scramble" />
         <button onclick="scrambleWords()">Redactr</button>
-        <div id="scrambledText"></div>
+        <div  class="scrambledText" id="scrambledText"></div>
       </div>
     </div>
-    <!-- <script>
-        function scrambleWords() {
-            const originalText = document.getElementById("originalText").value;
-            const wordToScramble = document.getElementById("wordToScramble").value;
-        
-            if (!originalText || !wordToScramble) {
-                alert("Please enter both text and word to scramble.");
-                return;
-            }
-        
-            // Create a regex pattern to match the word globally and case-insensitively
-            const wordPattern = new RegExp(`\\b${wordToScramble}\\b`, "gi");
-        
-            // Scramble the text by replacing the matched word with asterisks
-            const scrambledText = originalText.replace(wordPattern, "****");
-        
-            // Update the content of the "scrambledText" element
-            const scrambledTextElement = document.getElementById("scrambledText");
-            scrambledTextElement.textContent = scrambledText;
-        }
-    </script> -->
+ <script src="index.js"></script>
   </body>
 </html>
