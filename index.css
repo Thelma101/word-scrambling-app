@@ -64,3 +64,79 @@ body {
     border-radius: 5px;
     padding: 15px 30px;
 }
+  
+@media (max-width: 1090px) {
+    .container-div {
+      margin: 20px 100px;
+      }
+    }
+  
+    .textbox-container {
+      gap: 20px;
+    }
+  
+    .textbox-container textarea,
+    .textbox-container input {
+      padding: 15px;
+    }
+  
+    .textbox-container button {
+      padding: 15px;
+    }
+
+
+  @media (max-width: 768px) {
+    .container-div {
+      margin: 20px;
+    }
+  
+    .textbox-container {
+      gap: 20px;
+    }
+  
+    .textbox-container textarea,
+    .textbox-container input {
+      padding: 15px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .container-div {
+      margin: 10px 40px;
+    }
+  
+    .textbox-container {
+      gap: 15px;
+    }
+  
+    .textbox-container textarea,
+    .textbox-container input {
+      padding: 12px;
+      font-size: 12px;
+    }
+  
+    .textbox-container button {
+      padding: 10px;
+      font-size: 12px;
+        margin: 10px 100px;
+        font-weight: 700;
+        border-radius: 5px
+      }
+    }
+
+  .scrambledText {
+    background-color: #fff;
+    color: #0e2a47;
+    text-align: left;
+    border-radius: 5px;
+    padding: 15px 30px;
+  }
+  
+  .textbox-container button {
+    padding: 10px;
+    font-size: 12px;
+      margin: 10px 100px;
+      font-weight: 700;
+      border-radius: 5px
+    }
