@@ -37,6 +37,15 @@ body {
   font-size: 15px;
 }
 
+.scrambledText{
+    background-color:#fff;
+    color: #0e2a47;
+    text-align: left;
+    border-radius: 5px;
+    padding: 15px 20px;
+  font-sixe:15px;
+}
+
 .textbox-container button {
   background-color: #fff;
   cursor: pointer;
@@ -51,18 +60,11 @@ body {
 .textbox-container button:hover {
   background-color: #0e2a47;
   color: #fff;
+  border:1px solid #fff;
 }
 
 .textbox-container button:active {
   transition: background-color #999;
-}
-
-.scrambledText{
-    background-color:#fff;
-    color: #0e2a47;
-    text-align: left;
-    border-radius: 5px;
-    padding: 15px 30px;
 }
   
 @media (max-width: 1090px) {
@@ -113,16 +115,7 @@ body {
     .textbox-container textarea,
     .textbox-container input {
       padding: 12px;
-      font-size: 12px;
-    }
-  
-    .textbox-container button {
-      padding: 10px;
-      font-size: 12px;
-        margin: 10px 100px;
-        font-weight: 700;
-        border-radius: 5px
-      }
+      font-size: 11px;
     }
 
   .scrambledText {
@@ -130,7 +123,7 @@ body {
     color: #0e2a47;
     text-align: left;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 15px 20px;
   }
   
   .textbox-container button {
